@@ -1,0 +1,60 @@
+
+@media (min-width:768px) {
+    .headerCityCol {
+        display: flex
+    }
+
+    .headerSignInCol {
+        display: flex;
+        width: 126px
+    }
+
+    .headerLeftCol {
+        width: 248px
+    }
+
+    .headerRightCol {
+        width: 2594px;
+        display: flex
+    }
+
+    .headerLanguageSettingsCol,
+    .headerMoreHelpCol {
+        display: flex;
+        height: 69px
+    }
+
+    .toggle__icon__area {
+        display: none
+    }
+
+    .cartLogo img {
+        width: 40px
+    }
+}
+
+@media (max-width:768px) {
+    .headerLogo img {
+        width: 70px !important
+    }
+
+    .headerSignInCol {
+        width: 100px !important
+    }
+
+    .cartLogo img {
+        width: 22px
+    }
+
+    .header__cart__icon__col {
+        width: 42px
+    }
+
+    .ProfilePopupForMobileArea {
+        display: block
+    }
+
+    .ProfilePopupForDesktop {
+        display: none
+    }
+}

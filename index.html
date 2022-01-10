@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<!-- Task-1: UI interface desigh like: https://shodaimama.com/-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home - ShodaiMama | Online Grocery Shop</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="MediaQuries.css">
+</head>
+
+<body>
+    <div id='root'>
+        <div>
+
+            <!-- Header Inner-->
+            <div class="headerInner">
+                <div class="headerLeftCol">
+                    <ul id="toggle__icon__area" class="toggle__icon__area">
+                        <li class="toggle__icon"></li>
+                        <li class="toggle__icon"></li>
+                        <li class="toggle__icon"></li>
+                    </ul>
+                    <div class="headerLogo">
+                        <a href="/">
+                            <img src="img/logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="headerMiddleCol">
+                    <div class="searchIconForMobile">
+                        <svg class="searcIconIcon" 
+                            fill="#2ecc71"
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="15" 
+                            height="15" 
+                            viewBox="0 0 15 15">
+                            <path id="fi-rr-search"
+                                d="M14.785,13.9l-3.726-3.726a6.252,6.252,0,1,0-.883.883L13.9,14.785a.624.624,0,1,0,.883-.883ZM6.23,11.223A4.993,4.993,0,1,1,11.223,6.23,4.993,4.993,0,0,1,6.23,11.223Z"
+                                transform="translate(0.032 0.032)" 
+                                fill="#3e5570">
+                            </path>
+                        </svg></div>
+                </div>
+                <div class="headerRightCol">
+                    <div>
+                        <label class="searchArea">
+                            <img src="img/searchIcon.png" 
+                                width="30px" 
+                                height="30px"
+                                alt="">
+                        </label>
+                    </div>
+
+                    <div class="headerCityCol hover1">
+                        <svg stroke="currentColor" 
+                            fill="currentColor" 
+                            stroke-width="0"
+                            viewBox="0 0 384 512" 
+                            class="headerLocationIcon" 
+                            height="1em" 
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                            </path>
+                        </svg>
+                        <span class="cityText">Select Delivery Location</span>
+                    </div>
+                    <span>
+                        <div class="headerLanguageSettingsCol profile__popup__relatvie hideProfilePopup">
+                            <svg
+                                stroke="currentColor" 
+                                fill="currentColor" 
+                                stroke-width="0" 
+                                viewBox="0 0 512 512"
+                                class="headerLocationIcon" 
+                                height="1em" 
+                                width="1em" 
+                                xmlns="http://www.w3.org/2000/svg">
+
+                                <path
+                                    d="M256 288c79.5 0 144-64.5 144-144S335.5 0 256 0 112 64.5 112 144s64.5 144 144 144zm128 32h-55.1c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16H128C57.3 320 0 377.3 0 448v16c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48v-16c0-70.7-57.3-128-128-128z">
+                                </path>
+                            </svg>
+                                <a class="signInTextForHeader " 
+                                href="/signin">Sign In</a>
+                        </div>
+
+                    </span>
+                    <a href="/cart?smref=HeaderWidget">
+                        <div class="header__cart__icon__col">
+                            <div class="cartLogo"><img src="img/cardImg.svg"></div>
+                        </div>
+                    </a>
+                    <a href="/cart?smref=HeaderWidget">
+                        <div class="headerSignInCol hover1">
+                            <div class="header__right__cart__info">
+                                <div class="togg__arrow">
+                                    <img src="img/leftArrowImg.svg" width="100%"></div>
+                                <p class="right__cart__info__style border__bottom__under__list"> 
+                                    <img class="artboardsize" src="img/artBoard.cb23ac3c.svg"> 0 </p>
+                                <p class="right__cart__info__style">
+                                    <span class="right__cart__info__icon"> ৳ </span>
+                                0</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        </div>
+    </div> <!--root close-->
+
+</body>
+
+</html>
