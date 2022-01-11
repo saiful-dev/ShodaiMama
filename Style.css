@@ -93,7 +93,7 @@
 .headerLocationIcon {
     width: 15px;
     height: 15px;
-    color: var(--green)
+    color: #006a4e
 }
 
 .toggleBagQTY {
@@ -121,7 +121,7 @@
 .helpAndMoreText {
     font-weight: 600;
     font-size: var(--fontSizeM);
-    color: var(--green);
+    color: #006a4e;
     margin-top: 3px;
     margin-left: 3px
 }
@@ -171,7 +171,7 @@
 .signInTextForHeader {
     font-size: var(--fontSizeM);
     font-weight: 600;
-    color: var(--green)
+    color: #006a4e
 }
 
 .languageEn {
@@ -201,7 +201,7 @@
     justify-content: center;
     transition: all .1s linear;
     cursor: pointer;
-    background: var(--green);
+    background: #006a4e;
     position: relative
 }
 
@@ -333,3 +333,23 @@
 .ProfilePopupForDesktop {
     display: block
 }
+
+.searchIconForMobile,
+.searchIconForMobileForIpad {
+    display: none
+}
+
+.searcIconIcon {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    transition: all .3s;
+    right: 7px;
+    cursor: pointer;
+    color: #006a4e;
+    margin-right: 10px
+}
+
